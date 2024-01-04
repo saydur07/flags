@@ -1,0 +1,46 @@
+.main-container{
+    height: 100vh;
+    background-color: bisque;
+}
+.flag-container{
+    height: 250px;
+    width: 500px;
+    background-color: green;
+    position: relative;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-40%);
+}
+.flag-circle{
+    height: 130px;
+    width: 130px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100%;
+
+}
+.flag-handl{
+    height: 200px;
+    width: 40px;
+    background-color: black;
+    position: relative;
+    border-top-right-radius: 30px;
+    top: 90%;
+}
+.flag-footer{
+    height: 50px;
+    width: 80px;
+    background-color: goldenrod;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
